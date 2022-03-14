@@ -6,4 +6,5 @@ Subiré el avance día a día en el proyecto.
 Empecé con la parte más sencilla. El cuerpo de R2 consta a grosso modo de una cabeza esférica y un cilindro. 
 En este día me he familiarizado con la API y trasteado con algunas funciones.
 Esto he logrado:
+![dia1](/dia1.png)
 
