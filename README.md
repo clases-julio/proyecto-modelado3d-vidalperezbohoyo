@@ -8,3 +8,8 @@ En este día me he familiarizado con la API y trasteado con algunas funciones.
 Esto he logrado:
 ![dia1](/dia1.PNG)
 
+## Dia 2
+Implementé una funcion para substraer 1 cuerpo mediante otro llamado herramienta.
+Le añadí un ojo más realista y le creé dos brazos.
+![dia2](/dia2.PNG)
+
