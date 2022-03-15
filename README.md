@@ -13,3 +13,7 @@ Implementé una funcion para substraer 1 cuerpo mediante otro llamado herramient
 Le añadí un ojo más realista y le creé dos brazos.
 ![dia2](/dia2.PNG)
 
+## Dia 3
+Añadí una funcion para hacer un join de varios elementos. Le añadí pies y modifiqué la forma para tratar de ser
+mas fiel al original.
+![dia3](/dia3.PNG)
