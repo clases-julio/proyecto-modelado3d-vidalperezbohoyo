@@ -11,6 +11,26 @@ Esto he logrado:
 ## Dia 2
 Implementé una funcion para substraer 1 cuerpo mediante otro llamado herramienta. Esta función es muy útil
 ya que puedo crear formas más allá de las básicas.
+~~~
+class OperacionBinaria:
+    
+    def diferencia(objName, objNameTool):
+        objeto = bpy.data.objects[objName]
+        herramienta = bpy.data.objects[objNameTool]
+        mod = objeto.modifiers.new("Boolean", type='BOOLEAN')
+        mod.operation = 'DIFFERENCE'
+        mod.object  = herramienta
+        bpy.context.view_layer.objects.active = objeto
+        
+        bpy.ops.object.modifier_apply(apply_as='DATA', modifier=mod.name)
+        bpy.data.objects.remove(herramienta)
+        
+    def unir(lista, nuevo_nombre):
+        seleccionarVarios(lista)
+        bpy.ops.object.join()
+        bpy.context.view_layer.objects.active.name = nuevo_nombre
+~~~
+
 Un ejemplo, es el detalle que tiene bajo el pecho. Es una sección de cono que busca asemejarse a la parte baja de
 R2 donde guarda su tercer pie.
 Le añadí un ojo más realista y le creé dos brazos simples que posteriormente se modificarán para hacerlos
