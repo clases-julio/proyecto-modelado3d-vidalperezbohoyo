@@ -21,4 +21,4 @@ mas fiel al original.
 ## Dia 4 (Finalizado)
 Ahora queda añadir unas texturas al modelo generado para poder obtener un render bonito del modelo. 
 Además le damos un fondo plateado a la cabeza ya que es metálica.
-![dia4](/dia4.PNG)
+![dia4](/RENDER.png)
